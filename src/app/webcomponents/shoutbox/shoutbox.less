@@ -2,6 +2,13 @@
     .shouts-list {
         .list-unstyled;
 
+        max-height  : 212px;
+        overflow-y  : auto; -webkit-overflow-scrolling: touch;
+
+        border-top  : 1px solid @legend-border-color;
+        padding-top : 5px;
+        box-shadow  : inset 0px 8px 8px -8px rgba(0, 0, 0, 0.1);
+
         li {
             &.ng-enter {
                 .transition(0.35s linear all);

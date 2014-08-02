@@ -62,6 +62,7 @@ module.exports = {
    */
   vendor_files: {
     js: [
+      'vendor/bower_components/jquery/dist/jquery.js',
       'vendor/bower_components/angular/angular.js',
       'vendor/bower_components/angular-animate/angular-animate.js'
     ],

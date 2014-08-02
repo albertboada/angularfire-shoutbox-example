@@ -2,6 +2,7 @@
   "name": "angularfire-shoutbox-example",
   "version": "0.1.0",
   "devDependencies": {
+    "jquery": "~2.1",
     "angular": "~1.2",
     "angular-mocks": "~1.2",
     "angular-animate": "~1.2",
