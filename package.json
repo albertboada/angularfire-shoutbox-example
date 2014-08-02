@@ -1,16 +1,16 @@
 {
-  "author": "Josh David Miller",
-  "name": "ngbp",
-  "version": "0.3.2",
-  "homepage": "https://github.com/ngbp/ngbp",
+  "author": "Albert Boada Flaquer",
+  "name": "angularfire-shoutbox-example",
+  "version": "0.1.0",
+  "homepage": "https://github.com/albertboada/angularfire-shoutbox-example",
   "licenses": {
     "type": "MIT",
-    "url": "https://raw.github.com/ngbp/ngbp/master/LICENSE"
+    "url": "https://raw.github.com/albertboada/angularfire-shoutbox-example/master/LICENSE"
   },
-  "bugs": "https://github.com/ngbp/ngbp/issues",
+  "bugs": "https://github.com/albertboada/angularfire-shoutbox-example/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ngbp/ngbp.git"
+    "url": "git@github.com:albertboada/angularfire-shoutbox-example.git"
   },
   "dependencies": {},
   "devDependencies": {

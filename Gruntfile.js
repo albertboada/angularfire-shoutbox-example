@@ -1,3 +1,7 @@
+/**
+ * Build script based on ngbp. https://github.com/ngbp/ngbp
+ */
+
 module.exports = function ( grunt ) {
 
   /**

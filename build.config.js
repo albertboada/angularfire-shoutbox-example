@@ -62,11 +62,7 @@ module.exports = {
    */
   vendor_files: {
     js: [
-      'vendor/bower_components/angular/angular.js',
-      'vendor/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js',
-      'vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js',
-      'vendor/bower_components/angular-ui-router/release/angular-ui-router.js',
-      'vendor/bower_components/angular-ui-utils/modules/route/route.js'
+      'vendor/bower_components/angular/angular.js'
     ],
     css: [
     ],
