@@ -1,0 +1,23 @@
+.shoutbox-component {
+    .shouts-list {
+        .list-unstyled;
+
+        li {
+            &.ng-enter {
+                .transition(0.35s linear all);
+                opacity          : 0;
+                background-color : @alert-warning-bg;
+                &.ng-enter-active {
+                    opacity          : 1;
+                    background-color : transparent;
+                }
+            }
+
+            small {
+                color        : gray;
+                margin-right : 10px;
+                display      : inline-block;
+            }
+        }
+    }
+}
