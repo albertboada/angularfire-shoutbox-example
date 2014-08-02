@@ -6,6 +6,7 @@ var APP = angular.module(
   "templates-app",
   "templates-common",
   "ngAnimate",
-  "boa.utils"
+  "boa.utils",
+  "firebase"
 ])
 ;

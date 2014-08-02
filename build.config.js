@@ -64,7 +64,9 @@ module.exports = {
     js: [
       'vendor/bower_components/jquery/dist/jquery.js',
       'vendor/bower_components/angular/angular.js',
-      'vendor/bower_components/angular-animate/angular-animate.js'
+      'vendor/bower_components/angular-animate/angular-animate.js',
+      'vendor/bower_components/firebase/firebase.js',
+      'vendor/bower_components/angularfire/dist/angularfire.js'
     ],
     css: [
     ],
