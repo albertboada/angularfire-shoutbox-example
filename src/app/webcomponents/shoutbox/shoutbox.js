@@ -14,13 +14,9 @@ APP.directive("shoutbox", function () {
     /**
      * @WebComponentController
      */
-    ShoutboxWebComponentCtrl.$inject = ["$scope", "$firebase"];
-    function ShoutboxWebComponentCtrl($scope, $firebase) {
-        var myfirebase          = new Firebase("https://angularfire-shoutbox.firebaseio.com");
-        var shouts_firebase_ref = myfirebase.child("shouts");
-        var shouts_sync         = $firebase(shouts_firebase_ref);
-
-        $scope.shouts = shouts_sync.$asArray();
+    ShoutboxWebComponentCtrl.$inject = ["$scope", "shoutsDao"];
+    function ShoutboxWebComponentCtrl($scope, shoutsDao) {
+        $scope.shouts = shoutsDao.$asArray();
         $scope.input  = "";
 
         $scope.forceScrolling = false;
