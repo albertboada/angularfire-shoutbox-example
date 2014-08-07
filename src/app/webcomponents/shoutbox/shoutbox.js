@@ -23,13 +23,22 @@ APP.directive("shoutbox", function () {
         $scope.shouts = shouts_sync.$asArray();
         $scope.input  = "";
 
+        $scope.forceScrolling = false;
+
         $scope.addShout = function () {
             if ($scope.input) {
                 var shout = new Shout($scope.input);
                 $scope.shouts.$add(shout);
+                $scope.forceScrolling = true;
                 $scope.input = "";
             }
         };
+
+        $scope.$on("followedAppendedContent", function (event, attrs) {
+            if (attrs == "shouts-list") {
+                $scope.forceScrolling = false;
+            }
+        });
     }
 
     return {

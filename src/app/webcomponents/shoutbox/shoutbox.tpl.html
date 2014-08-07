@@ -1,5 +1,7 @@
 <div class="shoutbox-component">
-    <ul class="shouts-list" keep-viewport-at-bottom>
+    <ul class="shouts-list"
+        follows-appended-content="shouts-list" force-follow-if="forceScrolling"
+    ><!---->
         <li ng-repeat="shout in shouts"><small>{{ shout.timestamp | date: 'HH:mm:ss' }}</small> {{ shout.text }}</li>
     </ul>
 
